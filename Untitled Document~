@@ -1,0 +1,27 @@
+Playing Cards Test :
+
+1- Coding : we have one PHP file - Playingcards.php which is the main file in this test.
+	    It contains the main class 'Playingcards' and three methods :
+
+	a- shuffleCards() : which is shuffling the cards and preventing the previous sequence, returning back an array of the new 		   cards order.
+
+	b- dealCards($suffle_cards) : which takes the shuffled cards and distribute them on the four players - one for each till they 		   get seven cards.
+
+	c- display($cards, shuffle_cards, $player) : which takes the arrays of regular sequence cards, shuffled cards and the array 		   containing the player seven cards.
+
+	d- constructor : whcih instialising the cards to make them in regular sequence.
+
+	We have css, js, and images folder to make the test clean, functional and friendly.
+
+2- Testing : have used PHPunit to test the class, by making the PlayingcardsTest class and few functions to it for each method to 		     test them :
+	a- setUp and testConstructor : to test the constructor and the class.
+	
+	b- testShuffle() : to test shuffleCards functions and the results.
+	
+	c- testDeal() : to test the dealCards function and the output of it.
+
+	I have added a file 'tests_results-PHPunit' includes the test results via Command lines in the terminal.
+
+3- To run the script and see the interface just run the Playingcards.php file and thats it.
+
+

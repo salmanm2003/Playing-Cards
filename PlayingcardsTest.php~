@@ -1,0 +1,21 @@
+<?PHP
+
+require_once('Playingcards.php');
+
+class PlayingcardsTest extends PHPUnit_Framework_testCase
+{
+
+	private cards;
+
+	public function setUpTest()
+	{
+	
+		$cards = new Playingcards();
+		
+	}
+
+	public function 
+
+
+}
+?>

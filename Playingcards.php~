@@ -1,0 +1,23 @@
+<?PHP
+
+//Playing Cards Class
+class Playingcards
+{
+	
+	//initiate the cards
+        public cards = array();
+	
+	//The condtructor 
+        public function  __counstruct()
+        {
+		
+		//Orgnise the cards in four suits (Hearts, Clubs, Spades, Diamonds)
+                $this->cards = array(   'hearts'   => array('Ace','One','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten$
+                                        'clubs'    => array('Ace','One','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten$
+                                        'spades'   => array('Ace','One','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten$
+                                        'diamonds' => array('Ace','One','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten$ );
+
+        }
+
+}
+?>

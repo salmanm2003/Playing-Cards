@@ -1,0 +1,37 @@
+html
+{
+	background:#ccc;
+}
+body
+{
+	font-size:12px;
+	color: #000;
+	font-family:Serif;
+}
+body div
+{	
+	text-align:center;
+	margin:10px auto;
+	width:1100px;
+}
+div span
+{
+	position:relative;
+	top:-50px;
+}
+div h1
+{
+	text-decoration:underline;
+}
+div input[type='button']
+{
+	padding:5px;
+	margin:10px;
+}
+div img{
+	margin:5px;
+	box-shadow:1px 1px 5px #666;
+}
+#cards_shf, #cards_ply{
+	display:none;
+}
